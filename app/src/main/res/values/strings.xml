@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android_10_std</string>
+    <string name="webid">984757333504-4d970v8rid0jnt3m12fhns4icd8p1iib.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">4613890398721728</string>
+    <string name="fb_login_protocol_scheme">fb4613890398721728</string>
+    <string name="facebook_client_token">871a45d67ec5dffb6f779e66506132a4</string>
+
+
+</resources>
