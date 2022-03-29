@@ -16,25 +16,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_10_std">
         <activity
+            android:name=".Screen.Api_Screen.DataActivity"
+            android:exported="false" />
+        <activity
             android:name=".Screen.Storage_Screen.View.Storage_Activity"
-            android:exported="true" >
+            android:exported="true"></activity>
+        <activity
+            android:name=".Screen.Realtime_Screen.View.realtime_Activity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Screen.Login_screen.View.LoginActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".Screen.Home_Screen.View.Home_Activity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Screen.Realtime_Screen.View.realtime_Activity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".Screen.Login_screen.View.LoginActivity2"
-            android:exported="true"></activity>
-        <activity
-            android:name=".Screen.Home_Screen.View.Home_Activity"
-            android:exported="false" />
         <activity
             android:name=".Screen.Main_Screen.View.MainActivity"
             android:exported="true" />
